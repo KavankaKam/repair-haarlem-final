@@ -1,21 +1,123 @@
 <!DOCTYPE html>
-
-<header class="navbar desktop">
-  <section class="logo">Repair</section>
-  <nav class="nav-links">
-    <a href="index.html"> Home </a>
-    <a href="electronics.html"> Electronics </a>
-    <a href="contact.html"> Contact Us </a>
-    <a href="compliance.html"> Compliance </a>
-  </nav>
-</header>
-
-<footer class="footer desktop">
-  <section class="footer-links">
-    <a href="index.html"> Home </a>
-    <a href="electronics.html"> Electronics </a>
-    <a href="contact.html"> Contact Us </a>
-    <a href="compliance.html"> Compliance </a>
-  </section>
-  <p>© 2025 Repair Haarlem. All rights reserved.</p>
-</footer>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<title>Compliance Demo — Repair Haarlem</title>
+		<meta content="Kavan Kamangar" name="author" />
+		<meta
+			content="this page is for rubric-required HTML and CSS features for assessment."
+			name="description"
+		/>
+		<meta
+			content="repair, haarlem, electronics, services, smartphone"
+			name="keywords"
+		/>
+		<link href="img/favicon.ico" rel="icon" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="compliance-page">
+		<header class="navbar">
+			<section class="logo">Repair</section>
+			<input class="menu-toggle" id="menu-toggle" type="checkbox" /><label
+				aria-label="Toggle menu"
+				class="hamburger"
+				for="menu-toggle"
+				><span></span><span></span><span></span
+			></label>
+			<nav class="nav-links menu">
+				<a href="index.html">Home</a>
+				<a href="electronics.html">Electronics</a>
+				<a href="contact.html">Contact Us</a>
+				<a href="compliance.html">Compliance</a>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<h1>Rubric Compliance</h1>
+				<p class="lede">
+					this page is for rubric-required HTML and CSS features for
+					assessment so the main pages can match the Figma design
+					<em>without</em> extra stuff.
+				</p>
+			</section>
+			<section aria-labelledby="section-figure">
+				<h2 id="section-figure">Figure with figcaption</h2>
+				<figure>
+					<img
+						alt="Demo device"
+						src="img/card1.png"
+						title="Demo device"
+					/>
+					<figcaption>
+						Figure caption is for the required figure/figcaption
+						usage.
+					</figcaption>
+				</figure>
+			</section>
+			<aside aria-labelledby="section-aside">
+				<h2 id="section-aside">Aside with UL + Float</h2>
+				<p>
+					<img
+						alt="Info"
+						class="float-right"
+						src="img/hero.png"
+						title="Info"
+					/>paragraph has a small floated image to show
+					<strong>float</strong> usage.
+				</p>
+				<ul>
+					<li>Sample one</li>
+					<li>Sample two</li>
+					<li>Sample three</li>
+				</ul>
+			</aside>
+			<section aria-labelledby="section-table">
+				<h2 id="section-table">Table with :nth-child Row Colors</h2>
+				<table class="pricelist">
+					<tr>
+						<th>Service</th>
+						<th>Price</th>
+					</tr>
+					<tr>
+						<td>Diagnostics</td>
+						<td>€0</td>
+					</tr>
+					<tr>
+						<td>Battery replacement</td>
+						<td>€49</td>
+					</tr>
+					<tr>
+						<td>Screen repair</td>
+						<td>€99</td>
+					</tr>
+				</table>
+			</section>
+		</main>
+		<footer class="footer">
+			<section class="footer-links">
+				<a href="index.html">Home</a>
+				<a href="electronics.html">Electronics</a>
+				<a href="contact.html">Contact Us</a>
+				<a href="compliance.html">Compliance</a>
+			</section>
+			<section class="footer-divider" aria-hidden="true"></section>
+			<p>&copy; 2025 Repair Haarlem. All rights reserved.</p>
+		</footer>
+		<section
+			aria-label="Cookie notice"
+			aria-live="polite"
+			id="cookie-banner"
+			role="dialog"
+		>
+			<p>We use cookies to improve your experience.</p>
+			<form action="#" method="post">
+				<button id="cookie-ok" type="button">OK</button>
+			</form>
+		</section>
+	</body>
+</html>
