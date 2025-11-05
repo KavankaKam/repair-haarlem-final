@@ -1,5 +1,5 @@
-Name: Kavan Kamangar
+Student Name: Kavan Kamangar
 Student number: 742370
-Email: kavan.kam@icloud.com
+Student Class: IT1B
 GitHub static: https://github.com/KavankaKam/repair-haarlem-final.git
 GitHub pages: https://kavankakam.github.io/repair-haarlem-final/
